@@ -1,14 +1,51 @@
-header{
-  width: 100%;
-  height: 400px;
-  background-color: $orange;
-  h2.header__title{
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    padding-top: 100px;
-    color: $aqua;
-    text-shadow: 0 0 4px black;
-    font-size: $f-size1;
+.header{
+
+  &__container{
+    display: flex;
+    padding: 26px 0 30px;
+    justify-content: space-between;
+    align-items: center;
   }
+
+  &__container-link{
+    text-decoration: none;
+  }
+
+
+  &__container-img{
+    object-fit: cover;
+    max-width: 177px;
+    width: 100%;
+    height: 50px;
+  }
+
+
+  &__nav-list{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+
+  &__item-link{
+    text-decoration: none;
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.4px;
+    color: $dark-black;
+    text-transform: capitalize;
+  }
+  &__item-link--active{
+    color: $dark-orange;
+  }
+
+  &__item-link:hover{
+    color: $dark-orange;
+  }
+
+  &__item-link:active{
+    color: $dark-orange-active;
+  }
+
 }

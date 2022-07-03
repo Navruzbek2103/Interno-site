@@ -1,0 +1,81 @@
+.challenge{
+  margin-bottom: 140px;
+
+  &__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+  }
+
+  &__container-wrapper{
+    max-width: 592px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-right: 80px;
+  }
+
+  &__container-wrapper-title{
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 65px;
+    letter-spacing: 0.22px;
+    color: $dark-black;
+    margin-bottom: 42px;
+  }
+
+  &__container-wrapper-text{
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+    color: $dark-grey;
+    margin-bottom: 40px;
+  }
+
+  &__container-box{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+
+  &__container-box-phone{
+    width: 93px;
+    height: 93px;
+    background-color: $cream;
+    border-radius: 50%;
+    background-image: url("./../../images/phone-icon.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 20px;
+  }
+
+  &__container-inner-number{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.22px;
+    color: $dark-grey;
+  }
+
+  &__container-inner-desc{
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.22px;
+    color: $dark-grey;
+  }
+
+  &__container-img{
+    max-width: 592px;
+    width: 100%;
+    max-height: 635px;
+    height: 100%;
+  }
+}

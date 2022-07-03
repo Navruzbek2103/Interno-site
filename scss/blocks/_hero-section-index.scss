@@ -1,0 +1,70 @@
+.hero{
+  background-image: url("./../../images/hero-section-img-bg-index.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  padding: 195px 0 250px;
+  margin-bottom: 100px;
+  border-radius: 0 0 0 290px;
+
+  &__wrapper{
+    max-width: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  &__wrapper-title{
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 96px;
+    letter-spacing: 0.22px;
+    color: $dark-black;
+    margin-bottom: 19px;
+  }
+
+  &__wrapper-text{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+    color: $dark-grey;
+    margin-bottom: 35px;
+  }
+
+
+}
+
+.button{
+  position: relative;
+  text-decoration: none;
+  font-family: 'Jost';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.72px;
+  color: $white;
+  background-color: $dark-black;
+  padding: 22px 78px 22px 34px;
+  border-radius: 18px;
+  text-transform: capitalize;
+}
+
+.button::before{
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 20px;
+  width: 30px;
+  max-height: 40px;
+  height: 100%;
+  display: inline-block;
+  background-image: url("./../../images/button-icon.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
