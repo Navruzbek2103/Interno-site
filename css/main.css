@@ -558,14 +558,16 @@ ul, ol {
   background-position: center;
 }
 
-.aminities {
+.amenities {
   margin-bottom: 100px;
 }
 
-.aminities__container-list {
+.amenities__container-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -574,7 +576,7 @@ ul, ol {
           align-items: center;
 }
 
-.aminities__container-item {
+.amenities__container-item {
   max-width: 400px;
   width: 100%;
   display: -webkit-box;
@@ -590,7 +592,7 @@ ul, ol {
   padding: 75px 42px 70px;
 }
 
-.aminities__item-title {
+.amenities__item-title {
   font-weight: 400;
   font-size: 25px;
   line-height: 39px;
@@ -600,7 +602,7 @@ ul, ol {
   margin-bottom: 17px;
 }
 
-.aminities__item-text {
+.amenities__item-text {
   font-family: 'Jost';
   font-weight: 400;
   font-size: 22px;
@@ -611,7 +613,7 @@ ul, ol {
   margin-bottom: 48px;
 }
 
-.aminities__item-link {
+.amenities__item-link {
   position: relative;
   font-family: 'Jost';
   font-weight: 400;
@@ -623,7 +625,7 @@ ul, ol {
   text-decoration: none;
 }
 
-.aminities__item-link::before {
+.amenities__item-link::before {
   content: "";
   position: absolute;
   top: 50%;
@@ -777,6 +779,8 @@ ul, ol {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -787,6 +791,8 @@ ul, ol {
 }
 
 .think-about__item {
+  max-width: 356px;
+  width: 100%;
   background-color: #FFF;
   border-radius: 30px;
   padding: 50px 30px 45px 35px;
@@ -836,5 +842,24 @@ ul, ol {
   line-height: 30px;
   letter-spacing: 0.22px;
   color: #4D5053;
+}
+
+.brands {
+  margin-bottom: 113px;
+}
+
+.brands__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 50px;
 }
 /*# sourceMappingURL=main.css.map */
