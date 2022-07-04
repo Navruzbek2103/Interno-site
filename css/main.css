@@ -610,7 +610,7 @@ ul, ol {
   text-align: center;
   letter-spacing: 0.22px;
   color: #4D5053;
-  margin-bottom: 48px;
+  margin-bottom: 68px;
 }
 
 .amenities__item-link {
@@ -738,6 +738,7 @@ ul, ol {
   width: 100%;
   max-height: 635px;
   height: 100%;
+  border-radius: 0 326px 0 123px;
 }
 
 .think-about {
@@ -861,5 +862,113 @@ ul, ol {
       -ms-flex-align: center;
           align-items: center;
   padding: 0 50px;
+}
+
+.projects {
+  margin-bottom: 80px;
+}
+
+.projects__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.projects__container-box {
+  max-width: 786px;
+  width: 100%;
+  margin-bottom: 71px;
+}
+
+.projects__box-title {
+  font-weight: 400;
+  font-size: 47px;
+  line-height: 62px;
+  text-align: center;
+  letter-spacing: 0.22px;
+  color: #292F36;
+  margin-bottom: 20px;
+}
+
+.projects__box-text {
+  font-family: 'Jost';
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  text-align: center;
+  letter-spacing: 0.22px;
+  color: #4D5053;
+}
+
+.projects__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.projects__item {
+  margin-bottom: 60px;
+}
+
+.projects__item-img {
+  max-width: 590px;
+  width: 100%;
+  max-height: 661px;
+  border-radius: 0 80px 0 0;
+  margin-bottom: 24px;
+}
+
+.projects__item-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.projects__item-subtitle {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 38px;
+  letter-spacing: 0.22px;
+  color: #292F36;
+  margin-bottom: 9px;
+}
+
+.projects__item-subtext {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.22px;
+  color: #4D5053;
+}
+
+.next-button {
+  width: 70px;
+  height: 70px;
+  background-color: #F4F0EC;
+  border-radius: 50%;
+  background-image: url("./../../images/projects-section-icon-index.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
 }
 /*# sourceMappingURL=main.css.map */

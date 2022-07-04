@@ -1,0 +1,89 @@
+.projects{
+  margin-bottom: 80px;
+
+  &__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__container-box{
+    max-width: 786px;
+    width: 100%;
+    margin-bottom: 71px;
+  }
+
+  &__box-title{
+    font-weight: 400;
+    font-size: 47px;
+    line-height: 62px;
+    text-align: center;
+    letter-spacing: 0.22px;
+    color: $dark-black;
+    margin-bottom: 20px;
+  }
+
+  &__box-text{
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.22px;
+    color: $dark-grey;
+  }
+
+  &__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  &__item{
+    margin-bottom: 60px;
+  }
+
+  &__item-img{
+    max-width: 590px;
+    width: 100%;
+    max-height: 661px;
+    border-radius: 0 80px 0 0;
+    margin-bottom: 24px;
+  }
+
+  &__item-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__item-subtitle{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.22px;
+    color: $dark-black;
+    margin-bottom: 9px;
+  }
+
+  &__item-subtext{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+    color: $dark-grey;
+  }
+
+}
+.next-button{
+  width: 70px;
+  height: 70px;
+  background-color: $cream;
+  border-radius: 50%;
+  background-image: url("./../../images/projects-section-icon-index.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+}
