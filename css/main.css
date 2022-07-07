@@ -383,6 +383,7 @@ body {
   font-family: 'DM Serif Display';
   font-style: normal;
   font-size: 16px;
+  font-weight: 400px;
 }
 
 main {
@@ -970,5 +971,51 @@ ul, ol {
   background-repeat: no-repeat;
   background-position: center;
   background-size: auto;
+}
+
+.statistics {
+  background-color: #F4F0EC;
+  padding: 140px 0;
+  margin-bottom: 145px;
+}
+
+.statistics__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 16px;
+}
+
+.statistics__item {
+  border-right: 1px solid #CDA274;
+  padding: 14px 70px 10px 30px;
+  margin: 0 auto;
+}
+
+.statistics__item-title {
+  font-size: 85px;
+  line-height: 128px;
+  text-align: center;
+  letter-spacing: 1.7px;
+  color: #CDA274;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.statistics__item-text {
+  font-size: 22px;
+  line-height: 33px;
+  text-align: center;
+  letter-spacing: 0.22px;
+  color: #4D5053;
+  text-transform: capitalize;
 }
 /*# sourceMappingURL=main.css.map */

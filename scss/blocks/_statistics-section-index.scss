@@ -1,0 +1,40 @@
+.statistics{
+  background-color: $cream;
+  padding: 140px 0;
+  margin-bottom: 145px;
+
+  &__list{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+  }
+
+  &__item{
+    border-right: 1px solid $dark-orange;
+    // background-color: bisque;
+    padding: 14px 70px 10px 30px;
+    margin: 0 auto;
+  }
+
+
+  &__item-title{
+    font-size: 85px;
+    line-height: 128px;
+    text-align: center;
+    letter-spacing: 1.7px;
+    color: $dark-orange;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+
+  &__item-text{
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.22px;
+    color: $dark-grey;
+    text-transform: capitalize;
+  }
+}
