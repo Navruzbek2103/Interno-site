@@ -27,8 +27,13 @@
 
   &__nav-list{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     gap: 40px;
+  }
+
+  &__nav-item{
+    margin: 0 auto;
   }
 
   &__item-link{

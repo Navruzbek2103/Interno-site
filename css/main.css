@@ -460,10 +460,16 @@ ul, ol {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   gap: 40px;
+}
+
+.header__nav-item {
+  margin: 0 auto;
 }
 
 .header__item-link {
@@ -658,6 +664,8 @@ ul, ol {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap-reverse;
+      flex-wrap: wrap-reverse;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -668,6 +676,7 @@ ul, ol {
 }
 
 .challenge__container-wrapper {
+  margin: 0 auto;
   max-width: 592px;
   width: 100%;
   display: -webkit-box;
@@ -748,6 +757,7 @@ ul, ol {
   max-height: 635px;
   height: 100%;
   border-radius: 0 326px 0 123px;
+  margin: 0 auto;
 }
 
 .think-about {

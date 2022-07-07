@@ -3,12 +3,14 @@
 
   &__container{
     display: flex;
+    flex-wrap: wrap-reverse;
     justify-content: space-between;
     align-items: center;
     gap: 16px;
   }
 
   &__container-wrapper{
+    margin: 0 auto;
     max-width: 592px;
     width: 100%;
     display: flex;
@@ -78,5 +80,6 @@
     max-height: 635px;
     height: 100%;
     border-radius: 0 326px 0 123px;
+    margin: 0 auto;
   }
 }
