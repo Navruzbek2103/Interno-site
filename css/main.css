@@ -383,7 +383,6 @@ body {
   font-family: 'DM Serif Display';
   font-style: normal;
   font-size: 16px;
-  font-weight: 400px;
 }
 
 main {
@@ -422,6 +421,14 @@ ul, ol {
   max-width: 1240px;
   margin: 0 auto;
   padding: 0 20px;
+}
+
+.header {
+  background-color: #FFF;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
 }
 
 .header__container {
@@ -490,6 +497,7 @@ ul, ol {
   padding: 195px 0 250px;
   margin-bottom: 100px;
   border-radius: 0 0 0 290px;
+  margin-top: 106px;
 }
 
 .hero__wrapper {
@@ -1050,6 +1058,7 @@ ul, ol {
   letter-spacing: 0.22px;
   color: #292F36;
   margin-bottom: 21px;
+  text-transform: capitalize;
 }
 
 .blogs__heading-text {
@@ -1081,7 +1090,51 @@ ul, ol {
 }
 
 .blogs__item-box {
+  position: relative;
   margin-bottom: 25px;
+}
+
+.blogs__item-box::after {
+  content: " ";
+  position: absolute;
+  bottom: 29px;
+  left: 24px;
+  padding: 9px 10px 11px;
+  display: inline-block;
+  background-color: #FFF;
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.22px;
+  color: #4D5053;
+  border-radius: 8px 8px 8px 0;
+  text-transform: capitalize;
+}
+
+.blogs__item:nth-child(1) .blogs__item-box::after {
+  content: "Kitchen design";
+}
+
+.blogs__item:nth-child(2) .blogs__item-box::after {
+  content: "Living room";
+}
+
+.blogs__item:nth-child(3) .blogs__item-box::after {
+  content: "Minimalist interior";
+}
+
+.blogs__item:nth-child(4) .blogs__item-box::after {
+  content: "Kitchen design";
+}
+
+.blogs__item:nth-child(5) .blogs__item-box::after {
+  content: "Living room";
+}
+
+.blogs__item:nth-child(6) .blogs__item-box::after {
+  content: "Minimalist interior";
 }
 
 .blogs__item-box-img {

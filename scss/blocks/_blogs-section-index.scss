@@ -20,6 +20,7 @@
     letter-spacing: 0.22px;
     color: $dark-black;
     margin-bottom: 21px;
+    text-transform: capitalize;
   }
 
   &__heading-text{
@@ -49,8 +50,53 @@
 
 
   &__item-box{
+    position: relative;
     margin-bottom: 25px;
+
+    &::after{
+      content: " ";
+      position: absolute;
+      bottom: 29px;
+      left: 24px;
+      padding: 9px 10px 11px;
+      display: inline-block;
+      background-color: $white;
+      font-family: 'Jost';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: 0.22px;
+      color: $dark-grey;
+      border-radius: 8px 8px 8px 0;
+      text-transform: capitalize;
+    }
   }
+
+  &__item:nth-child(1) &__item-box::after{
+    content: "Kitchen design";
+  }
+
+  &__item:nth-child(2) &__item-box::after{
+    content: "Living room";
+  }
+
+  &__item:nth-child(3) &__item-box::after{
+    content: "Minimalist interior";
+  }
+
+  &__item:nth-child(4) &__item-box::after{
+    content: "Kitchen design";
+  }
+
+  &__item:nth-child(5) &__item-box::after{
+    content: "Living room";
+  }
+
+  &__item:nth-child(6) &__item-box::after{
+    content: "Minimalist interior";
+  }
+
 
   &__item-box-img{
     max-width: 345px;
