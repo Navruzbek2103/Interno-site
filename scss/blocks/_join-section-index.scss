@@ -1,0 +1,41 @@
+.join{
+  margin-bottom: 130px;
+
+  &__container{
+    background-color: $dark-black;
+    padding: 100px 0 95px;
+    border-radius: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__container-title{
+    font-size: 50px;
+    line-height: 75px;
+    text-align: center;
+    letter-spacing: 0.22px;
+    color: $white;
+    margin-bottom: 9px;
+  }
+
+  &__container-text{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.22px;
+    color: $white;
+    margin-bottom: 31px;
+  }
+}
+
+.button-join{
+  background-color: $dark-orange;
+
+  &::before{
+    background-image: url("./../../images/button-icon-black.svg");
+  }
+}

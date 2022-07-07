@@ -13,7 +13,6 @@
 
   &__item{
     border-right: 1px solid $dark-orange;
-    // background-color: bisque;
     padding: 14px 70px 10px 30px;
     margin: 0 auto;
   }
@@ -30,6 +29,7 @@
   }
 
   &__item-text{
+    font-family: 'Jost';
     font-size: 22px;
     line-height: 33px;
     text-align: center;
